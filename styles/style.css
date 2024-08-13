@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#grey-qo-regular-font{
+    font-family: "Grey Qo", cursive;
+    font-weight: 400;
+    font-size: 9rem;
+    font-style: normal;
+    line-height: 0;
+}
+  
+
+body{
+    margin: 0px;
+}
+
+/* Shared Style */
+.all-text{
+    color: white;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.text-color{
+    color: #E6533C;
+}
+
+.secondary-text-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.button-color{
+    background-color: rgba(230, 83, 60, 1);
+}
+
+/* navbar section */
+.bg-color{
+    background: linear-gradient(358deg, #000000, #000000d4, #000);
+}
+
+.navbar{
+    list-style: none;
+    gap: 45px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 3px;
+    padding-right: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    /* width: 100%; */
+    height: 715px;
+    padding: 40px 190px;
+}
+
+.nav-title{
+    font-weight: 800;
+    font-size: 2.25rem;
+    margin: 15px 0 10px 0;
+}
+
+.home{
+    background-color: #E6533C;
+    border: 2px solid #E6533C;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+
+/* Banner style */
+.banner{
+    justify-content: space-between;
+}
+
+.banner-title{
+    font-weight: 800;
+    font-size: 4.75rem;
+}
+
+.button-primary{
+    margin-top: 30px;
+}
+
+.button-1{
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    border: 1px solid #e6533c;
+    border-radius: 46px;
+    padding: 15px 45px;
+}
