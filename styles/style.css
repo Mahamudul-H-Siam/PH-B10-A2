@@ -185,7 +185,7 @@ body{
     line-height: 25px;
 }
 
-.workout-cover{
+.workout{
     justify-content: space-evenly;
 }
 
@@ -368,4 +368,150 @@ a{
     margin: 0;
     padding: 20px;
     text-align: center;
+}
+
+/* Responsive this website for mobile device */
+@media screen and (max-width:576px) {
+    .navbar-container{
+        display: none;
+    }
+
+    .header, .bg-black, .BMI-chart, .team-container, .footer, footer{
+        max-width: 576px;
+        height: auto;
+        padding: 50px;
+    }
+
+    .header{
+        padding-bottom: 0;
+    }
+
+    .navbar,
+    .banner,
+    .workout,
+    .main-container,
+    .BMI-chart,
+    .image-container,
+    .start,
+    .footer{
+        flex-direction: column;
+    }
+
+    .nav-title{
+        font-size: 4rem;
+        margin: 0;
+        padding: 40px 0 40px 0;
+    }
+
+    .banner-container .secondary-text-color{
+        font-size: 2rem;
+    }
+
+    .button-1, .button-2{
+        padding: 30px 55px;
+        font-size: 1.5rem;
+        border-radius: 46px;
+    }
+
+    .image-container{
+        padding-top: 20%;
+        height: 580px;
+        margin-left: 120px;
+    }
+
+    /* Habit section */
+    .text-habit{
+        font-size: 25px;
+    }
+
+    .workout-image{
+        width: 60%;
+    }
+
+    .workout-text{
+        font-size: 2rem;
+    }
+
+    /* Run Section */
+    .main-section{
+        padding: 0px;
+    }
+
+    .extra-description, .BMI-description{
+        font-size: 1.4rem;
+    } 
+
+    .button-3{
+        padding: 30px 167px;
+        font-size: 2rem;
+    }
+
+    /* BMI section  */
+    .BMI-text-container{
+        padding: 100px 50px 50px 0px;
+    }
+
+    td, th{
+        font-size: 1.5rem;
+        padding: 20px 50px;
+    }
+
+    .inputs{
+        font-size: 1.2rem;
+        padding: 23px;
+    }
+
+    .inputs.input-large{
+        padding-right: 54.5%;
+    }
+
+    /* Team section  */
+    .image-container, .start{
+        display: flex;
+        padding: 35px;
+        gap: 35px;
+    }
+
+    img.trainer-image {
+        width: 100%;
+        height: 400px;
+        border-radius: 16px;
+    }
+
+    .trainer{
+        opacity: 90%;
+    }
+
+    .trainer-text{
+        margin-top: -90px;
+    }
+
+    .team-description, .trainer-description{
+         font-size: 1.5rem;
+    }
+
+    .trainer-title, .start-title{
+         font-size: 2rem;
+    }
+
+    /* footer-section */
+    footer{
+        width: 576px;
+        height: auto;
+    }
+
+    .start, .footer{
+         flex-direction: column;
+         padding: 0px 0px 50px 0px;
+         gap: 30px;
+    }
+
+    .footer-title{
+        font-size: 5rem;
+    }
+
+     #copyrights{
+        font-size: 1.5rem;
+        padding-top: 50px;
+    }
 }
