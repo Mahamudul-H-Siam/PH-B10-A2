@@ -199,3 +199,35 @@ body{
     font-weight: 600;
     font-size: 1.2rem;
 }
+
+/* Run section */
+.main-section{
+    margin-top: 100px;
+}
+
+.main-container{
+    justify-content: space-between;
+    background-color: rgba(34, 34, 34, 1);
+    padding: 30px;
+    border-radius: 18px;
+}
+.extra-container{
+    padding-left: 20px;
+}
+
+.extra-title{
+    font-weight: 900;
+    font-size: 3rem;
+    margin: 12px 0 0 0;
+}
+
+.button-3{
+    padding: 16px 75px;
+    margin-top: 20px;
+    font-size: 1.075rem;
+}
+
+.image-3{
+    height: 300px;
+    border-radius: 18px;
+}
