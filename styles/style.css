@@ -114,13 +114,17 @@ body{
 .box-1{
     padding: 0 25px;
     background-color: rgba(48, 48, 48, 0.54);
-    width: 45%;
+    width: 35%;
     border-radius: 12px;
     border: 0.5px solid rgba(48, 48, 48, 0.54);
     display: flex;
     margin-left: -100px;
     margin-top: -160px;
     position: relative;
+}
+
+.box-text p{
+    font-size: 0.9rem;
 }
 
 .ball{
@@ -139,4 +143,22 @@ body{
     font-size: 2rem;
     margin: 30px 0px auto;
     line-height: 8px;
+}
+
+.box-2{
+    padding: 0 15px;
+    background: rgba(255, 255, 255, 0.1);
+    width: 40%;
+    border-radius: 12px;
+    border: 0.5 solid #77777794;
+    display: flex;
+    margin-left: 230px;
+    margin-top: -90%;
+    position: relative;
+}
+
+.box-title2{
+    font-size: 2.5rem;
+    margin: 30px 0 30px;
+    line-height: 15px;
 }
