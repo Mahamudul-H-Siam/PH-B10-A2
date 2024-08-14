@@ -242,3 +242,47 @@ body{
     margin: 0;
     font-weight: bold;
 }
+
+/* BMI Chart */
+.BMI-chart{
+    justify-content: space-between;
+    gap: 30px;
+    background: #2f2f2f;
+    height: auto;
+    padding: 30px 10% 55px 10%;
+}
+
+.BMI-title-text{
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+.BMI-table{
+    padding-top: 30px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+th, td{
+    text-align: start;
+    border: 1px solid #605454;
+    padding: 15px 35px;
+}
+td{
+    color: #888;
+}
+
+.inputs{
+    padding: 20px 100px 20px 20px;
+    margin: 5px 2px;
+    border-radius: 8px;
+    font-size: 1rem;
+    border: 1px solid #777;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.inputs.input-large {
+    padding-right: 47%;
+}
