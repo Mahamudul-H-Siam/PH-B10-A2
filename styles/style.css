@@ -50,6 +50,10 @@ body{
     margin-bottom: -20px;
 }
 
+.title-size{
+    font-size: 3rem;
+}
+
 /* navbar section */
 .bg-color{
     background: linear-gradient(358deg, #000000, #000000d4, #000);
@@ -169,4 +173,29 @@ body{
     font-size: 2.5rem;
     margin: 30px 0 30px;
     line-height: 15px;
+}
+
+/* Habit section */
+.habit-text{
+    text-align: center;
+    line-height: 25px;
+}
+
+.workout-cover{
+    justify-content: space-evenly;
+}
+
+.workout-container{
+    text-align: center;
+    padding-top: 58px;
+}
+
+.workout-image{
+    border-radius: 50%;
+    border: 3px solid #77777794;
+}
+
+.workout-text{
+    font-weight: 600;
+    font-size: 1.2rem;
 }
