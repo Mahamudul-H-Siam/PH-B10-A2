@@ -331,3 +331,41 @@ img.trainer-image{
 .trainer-description{
     margin: 0;
 }
+
+/* Footer Section */
+footer{
+    background: rgb(24 23 23);
+}
+
+.footer{
+    justify-content: space-between;
+    gap: 149px;
+    height: auto;
+    padding: 50px 10% 100px 10% ;
+}
+
+.footer-title{
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.start{
+    display: grid;
+    gap: 10px;
+    font-size: 1.5rem;
+}
+.start-title{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#copyrights{
+    border-top: 1px solid #3f3d3d;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
