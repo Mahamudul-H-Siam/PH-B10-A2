@@ -84,6 +84,7 @@ body{
 }
 
 .menu-icon{
+    visibility: hidden;
     display: none;
 }
 
