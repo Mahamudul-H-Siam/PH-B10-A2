@@ -83,6 +83,10 @@ body{
     margin: 0;
 }
 
+.menu-icon{
+    display: none;
+}
+
 a{
     color: white;
     font-weight: 1.075rem;
@@ -397,6 +401,16 @@ a{
 @media screen and (max-width:576px) {
     .navbar-container{
         display: none;
+    }
+
+    .menu-icon{
+        display:block;
+        margin-left: 290px;
+    }
+
+    .logo{
+        display: flex;
+        justify-content: space-between;
     }
 
     .header, .bg-black, .bg-color, .main-section, .BMI-chart, .team-container, .footer, footer{
