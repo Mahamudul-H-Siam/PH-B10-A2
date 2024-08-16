@@ -405,6 +405,7 @@ a{
     }
 
     .menu-icon{
+        visibility: visible;
         display:block;
         margin-left: 290px;
     }
