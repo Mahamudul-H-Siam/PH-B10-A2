@@ -315,6 +315,21 @@ td{
     padding-right: 67%;
 }
 
+/* Unique Section */
+.diet-header{
+    text-align: center;
+}
+
+.image-4{
+    width: 200px;
+    height: 300px;
+    border-radius: 18px;
+}
+
+.gap{
+    gap: 20px;
+}
+
 /* Team Section */
 .team-container{
     padding: 80px 10% 80px 10%;
@@ -434,6 +449,7 @@ a{
     .main-container,
     .BMI-chart,
     .image-container,
+    .gap,
     .start,
     .footer{
         flex-direction: column;
@@ -518,6 +534,11 @@ a{
 
     .inputs.input-large{
         padding-right: 57%;
+    }
+
+    /* Unique Section */
+    .center{
+        align-items: center;
     }
 
     /* Team section  */
